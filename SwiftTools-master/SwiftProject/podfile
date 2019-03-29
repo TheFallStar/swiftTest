@@ -1,0 +1,18 @@
+use_frameworks!
+target 'SwiftProject' do
+pod 'MJRefresh'
+pod 'DZNEmptyDataSet'
+pod 'IQKeyboardManager'
+pod 'Alamofire'
+pod 'SVProgressHUD'
+pod 'CoreAnimator'
+#pod 'CountdownLabel'
+pod 'GSCaptchaButton'
+#pod 'RxSwift', '~> 4.0',inhibit_warnings: true
+#pod 'RxCocoa', '~> 4.0'
+#pod 'RxAtomic', '~> 4.0', :modular_headers => true
+pod 'DefaultsKit'
+#pod 'SocketRocket'
+pod 'SDWebImage'
+pod 'ReachabilitySwift'
+end

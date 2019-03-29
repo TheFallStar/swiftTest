@@ -18,8 +18,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         //控制点击背景是否收起键盘
+        IQKeyboardManager.shared().isEnabled=true
         IQKeyboardManager.shared().shouldResignOnTouchOutside = true
+        IQKeyboardManager.shared().isEnableAutoToolbar=false
+        IQKeyboardManager.shared().shouldToolbarUsesTextFieldTintColor=false
         
+        var dictionary: [String:String] = [:]
+        dictionary.updateValue("asd", forKey: "aaa")
+        let b:String = dictionary["aaa"] ?? ""
+        print(aaa)
         return true
     }
 

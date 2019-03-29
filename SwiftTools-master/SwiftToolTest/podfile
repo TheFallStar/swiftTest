@@ -8,4 +8,6 @@ pod 'DZNEmptyDataSet'
 pod 'IQKeyboardManager'
 pod 'YYCache'
 pod 'Alamofire'
+pod 'Moya'
+
 end
