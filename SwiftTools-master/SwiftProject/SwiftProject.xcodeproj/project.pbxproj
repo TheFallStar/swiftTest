@@ -10,6 +10,7 @@
 		1A098AC6B5597D759821AEDE /* Pods_SwiftProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D555B51ED5F2A22514749B8 /* Pods_SwiftProject.framework */; };
 		285BA80B2094457D00735E74 /* SwiftProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285BA80A2094457D00735E74 /* SwiftProjectTests.swift */; };
 		285BA8162094457D00735E74 /* SwiftProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 285BA8152094457D00735E74 /* SwiftProjectUITests.swift */; };
+		B04D8ECF2251D6E6003D211B /* TestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04D8ECE2251D6E6003D211B /* TestModel.swift */; };
 		B0EBD31C224D9ED000F3B8B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0EBD2D5224D9ECF00F3B8B9 /* Assets.xcassets */; };
 		B0EBD325224D9ED000F3B8B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0EBD2DF224D9ECF00F3B8B9 /* LaunchScreen.storyboard */; };
 		B0EBD326224D9ED000F3B8B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0EBD2E1224D9ECF00F3B8B9 /* Main.storyboard */; };
@@ -83,6 +84,7 @@
 		285BA8112094457D00735E74 /* SwiftProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		285BA8152094457D00735E74 /* SwiftProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftProjectUITests.swift; sourceTree = "<group>"; };
 		34A63E706368C3EE93350ADF /* Pods-SwiftProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftProject/Pods-SwiftProject.debug.xcconfig"; sourceTree = "<group>"; };
+		B04D8ECE2251D6E6003D211B /* TestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestModel.swift; sourceTree = "<group>"; };
 		B0EBD2D5224D9ECF00F3B8B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0EBD2E0224D9ECF00F3B8B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B0EBD2E2224D9ECF00F3B8B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -212,6 +214,17 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		B04D8ECD2251D6D1003D211B /* 测试 */ = {
+			isa = PBXGroup;
+			children = (
+				B0EBD33D224DA3B200F3B8B9 /* Test.swift */,
+				B0EBD33E224DA3B200F3B8B9 /* HJTestViewController.swift */,
+				B0EBD343224DA3B200F3B8B9 /* TestView.storyboard */,
+				B04D8ECE2251D6E6003D211B /* TestModel.swift */,
+			);
+			path = "测试";
+			sourceTree = "<group>";
+		};
 		B0EBD29C224D9ECF00F3B8B9 /* SwiftProject */ = {
 			isa = PBXGroup;
 			children = (
@@ -240,22 +253,20 @@
 		B0EBD32E224DA3B200F3B8B9 /* Swift */ = {
 			isa = PBXGroup;
 			children = (
-				B0EBD32F224DA3B200F3B8B9 /* 用户中心 */,
-				B0EBD33D224DA3B200F3B8B9 /* Test.swift */,
-				B0EBD33E224DA3B200F3B8B9 /* HJTestViewController.swift */,
 				B0EBD33F224DA3B200F3B8B9 /* Config(常量，宏，参数配置) */,
-				B0EBD343224DA3B200F3B8B9 /* TestView.storyboard */,
+				B0EBD32F224DA3B200F3B8B9 /* 例程 */,
 				B0EBD344224DA3B200F3B8B9 /* Main */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
 		};
-		B0EBD32F224DA3B200F3B8B9 /* 用户中心 */ = {
+		B0EBD32F224DA3B200F3B8B9 /* 例程 */ = {
 			isa = PBXGroup;
 			children = (
+				B04D8ECD2251D6D1003D211B /* 测试 */,
 				B0EBD338224DA3B200F3B8B9 /* 测试列表 */,
 			);
-			path = "用户中心";
+			path = "例程";
 			sourceTree = "<group>";
 		};
 		B0EBD338224DA3B200F3B8B9 /* 测试列表 */ = {
@@ -555,6 +566,7 @@
 				B0EBD386224DA3B200F3B8B9 /* Array+JHExtension.swift in Sources */,
 				B0F8772F224DB28E003441CC /* HJBaseRequests.swift in Sources */,
 				B0EBD37E224DA3B200F3B8B9 /* UITextField+JHExtension.swift in Sources */,
+				B04D8ECF2251D6E6003D211B /* TestModel.swift in Sources */,
 				B0EBD32A224D9ED000F3B8B9 /* MBProgressHUDController.swift in Sources */,
 				B0EBD378224DA3B200F3B8B9 /* UIView+JHExtension.swift in Sources */,
 				B0EBD37B224DA3B200F3B8B9 /* JHLabel.swift in Sources */,

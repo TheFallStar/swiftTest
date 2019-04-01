@@ -105,8 +105,8 @@ extension NetworkKit{
                         self.success?(model)
                     } catch {
                          print("error: \(error)")
-                        let newStr = String(data: response.data!, encoding: String.Encoding.utf8)
-                        print(newStr!)
+//                        let newStr = String(data: response.data!, encoding: String.Encoding.utf8)
+//                        print(newStr!)
                     }
                 
                 case .failure:

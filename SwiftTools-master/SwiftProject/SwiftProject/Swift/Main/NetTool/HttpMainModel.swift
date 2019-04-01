@@ -6,19 +6,23 @@
 //  Copyright © 2019 csql. All rights reserved.
 //
 
-//import Foundation
+//import AnyCodable
+
 struct HttpMainModel:Codable {
-    var result: String! = ""
-    let Message: String? = ""
-    let Code:Int? = 0
-    let Data:String? = ""
+//    var result: String! = ""
+//    let Message: String? = ""
+    var ret:Int? = 1
+    var data:[String:String]
 //    private enum CodingKeys: String, CodingKey {
-//        case h = "height"
+//        case result = "height"
 //        case name
 //        case age
 //        case pet
 //        case picture
 //    }
 }
+//struct Data {
+//
+//}
 
 
