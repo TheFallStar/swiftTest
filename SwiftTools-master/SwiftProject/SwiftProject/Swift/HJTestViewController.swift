@@ -20,7 +20,7 @@ class HJTestViewController: UIViewController {
 //    }.request()
         NetworkKit().url("http://ceshi.chuangshiqilin.com/customersv1/get_slides").params(params).success { (dict) in
 //            let aa = HttpModel.deserialize(from: json)
-            print(dict)
+            print(dict.Code!)
         }.request()
         
 }

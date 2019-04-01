@@ -8,10 +8,10 @@
 
 //import Foundation
 struct HttpMainModel:Codable {
-    var result: String? = ""
-    var Message: String? = ""
-    var Code:Int? = 0
-    var Data:[String:String]? = [:]
+    var result: String! = ""
+    let Message: String? = ""
+    let Code:Int? = 0
+    let Data:String? = ""
 //    private enum CodingKeys: String, CodingKey {
 //        case h = "height"
 //        case name

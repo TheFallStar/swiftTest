@@ -18,7 +18,6 @@
 		B0EBD32A224D9ED000F3B8B9 /* MBProgressHUDController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EBD2E8224D9ECF00F3B8B9 /* MBProgressHUDController.swift */; };
 		B0EBD32B224D9ED000F3B8B9 /* MBProgressHUDController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0EBD2E9224D9ECF00F3B8B9 /* MBProgressHUDController.xib */; };
 		B0EBD32C224D9ED000F3B8B9 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B0EBD2EA224D9ECF00F3B8B9 /* Info.plist */; };
-		B0EBD32D224D9ED000F3B8B9 /* swiftTool.plist in Resources */ = {isa = PBXBuildFile; fileRef = B0EBD2EB224D9ECF00F3B8B9 /* swiftTool.plist */; };
 		B0EBD36B224DA3B200F3B8B9 /* FlexTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EBD339224DA3B200F3B8B9 /* FlexTable.swift */; };
 		B0EBD36C224DA3B200F3B8B9 /* FlexTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EBD33B224DA3B200F3B8B9 /* FlexTableCell.swift */; };
 		B0EBD36D224DA3B200F3B8B9 /* FlexTableCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0EBD33C224DA3B200F3B8B9 /* FlexTableCellView.xib */; };
@@ -93,7 +92,6 @@
 		B0EBD2E8224D9ECF00F3B8B9 /* MBProgressHUDController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBProgressHUDController.swift; sourceTree = "<group>"; };
 		B0EBD2E9224D9ECF00F3B8B9 /* MBProgressHUDController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MBProgressHUDController.xib; sourceTree = "<group>"; };
 		B0EBD2EA224D9ECF00F3B8B9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B0EBD2EB224D9ECF00F3B8B9 /* swiftTool.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = swiftTool.plist; sourceTree = "<group>"; };
 		B0EBD339224DA3B200F3B8B9 /* FlexTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexTable.swift; sourceTree = "<group>"; };
 		B0EBD33B224DA3B200F3B8B9 /* FlexTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexTableCell.swift; sourceTree = "<group>"; };
 		B0EBD33C224DA3B200F3B8B9 /* FlexTableCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FlexTableCellView.xib; sourceTree = "<group>"; };
@@ -225,7 +223,6 @@
 				B0EBD2E5224D9ECF00F3B8B9 /* SwiftToolTest-Bridging-Header.h */,
 				B0EBD2E6224D9ECF00F3B8B9 /* ThirdParty */,
 				B0EBD2EA224D9ECF00F3B8B9 /* Info.plist */,
-				B0EBD2EB224D9ECF00F3B8B9 /* swiftTool.plist */,
 			);
 			path = SwiftProject;
 			sourceTree = "<group>";
@@ -475,7 +472,6 @@
 				B0EBD32C224D9ED000F3B8B9 /* Info.plist in Resources */,
 				B0EBD373224DA3B200F3B8B9 /* TestView.storyboard in Resources */,
 				B0EBD31C224D9ED000F3B8B9 /* Assets.xcassets in Resources */,
-				B0EBD32D224D9ED000F3B8B9 /* swiftTool.plist in Resources */,
 				B0EBD326224D9ED000F3B8B9 /* Main.storyboard in Resources */,
 				B0EBD325224D9ED000F3B8B9 /* LaunchScreen.storyboard in Resources */,
 				B0EBD32B224D9ED000F3B8B9 /* MBProgressHUDController.xib in Resources */,

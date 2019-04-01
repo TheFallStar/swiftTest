@@ -101,7 +101,7 @@ extension NetworkKit{
             switch response.result{
                 case .success:
                     do {
-                        let model = try JSONDecoder().decode(HttpMainModel.self, from: response.data!)
+                        let model:HttpMainModel = try JSONDecoder().decode(HttpMainModel.self, from: response.data!)
                         self.success?(model)
                     } catch {
                          print("error: \(error)")
