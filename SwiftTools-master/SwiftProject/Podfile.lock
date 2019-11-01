@@ -5,6 +5,7 @@ PODS:
   - DZNEmptyDataSet (1.8.1)
   - GSCaptchaButton (1.0.0)
   - IQKeyboardManager (6.2.1)
+  - KakaJSON (1.1.0)
   - MJRefresh (3.1.16)
   - ReachabilitySwift (4.3.1)
   - SDWebImage (4.4.6):
@@ -19,13 +20,14 @@ DEPENDENCIES:
   - DZNEmptyDataSet
   - GSCaptchaButton
   - IQKeyboardManager
+  - KakaJSON
   - MJRefresh
   - ReachabilitySwift
   - SDWebImage
   - SVProgressHUD
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - Alamofire
     - CoreAnimator
     - DefaultsKit
@@ -36,6 +38,8 @@ SPEC REPOS:
     - ReachabilitySwift
     - SDWebImage
     - SVProgressHUD
+  trunk:
+    - KakaJSON
 
 SPEC CHECKSUMS:
   Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
@@ -44,11 +48,12 @@ SPEC CHECKSUMS:
   DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
   GSCaptchaButton: 3ab11b438bc5bd1e11c6160d8b088e1097783b42
   IQKeyboardManager: 964638372b4a61892cc74fdfa6fd26de8c9464a2
+  KakaJSON: ea3747b231e28991c94c4738be966b798c1fa0ed
   MJRefresh: 7798e16e53a5ef7f332dd05b27664db4e29530fd
   ReachabilitySwift: 4032e2f59586e11e3b0ebe15b167abdd587a388b
   SDWebImage: 3f3f0c02f09798048c47a5ed0a13f17b063572d8
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
-PODFILE CHECKSUM: b4f9f5ceb7999b42ae1d42b5fff63ba4f868bdab
+PODFILE CHECKSUM: 936009a781bd412cfa0ebf37ac22fd3448866c4c
 
-COCOAPODS: 1.7.0.beta.1
+COCOAPODS: 1.8.4

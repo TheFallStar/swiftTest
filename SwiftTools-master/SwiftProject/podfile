@@ -14,5 +14,6 @@ pod 'GSCaptchaButton'
 pod 'DefaultsKit'
 #pod 'SocketRocket'
 pod 'SDWebImage'
-pod 'ReachabilitySwift'
+pod 'ReachabilitySwift' #判定网络状态
+pod 'KakaJSON'
 end

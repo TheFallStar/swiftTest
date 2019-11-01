@@ -72,8 +72,7 @@ extension NetworkKit{
     ///发起请求 设置好相关参数后再调用
     func request() -> Void {
         let reachability = Reachability.init(hostname: baseURL)
-        if(reachability?.connection == .none){
-            print("网络连接：不可用")
+        if(reachability?.connection == Optional.none){
             HJShowAlert.showHud(msg:NoNetError)
             return
         }
@@ -84,12 +83,7 @@ extension NetworkKit{
             // 设置请求的超时时间
             self.manager = Alamofire.SessionManager.default
             self.manager.session.configuration.timeoutIntervalForRequest = 10
-            
-            //            let configuration = URLSessionConfiguration.default
-            //            configuration.timeoutIntervalForRequest = 10
-            //            self.manager.session.configuration = configuration
-            
-//            dataRequest =  self.manager.request(URLString,method: method, parameters: params)
+              
              dataRequest =  self.manager.request(URLString, method:method, parameters: params, encoding:JSONEncoding.default)
             httpRequest = dataRequest
         }
@@ -105,13 +99,11 @@ extension NetworkKit{
                         self.success?(model)
                     } catch {
                          print("error: \(error)")
-//                        let newStr = String(data: response.data!, encoding: String.Encoding.utf8)
-//                        print(newStr!)
                     }
                 
                 case .failure:
                     print("错误信息:\n"+"\(response.debugDescription)")
-                    HJShowAlert.showHud(msg: response.debugDescription)
+//                    HJShowAlert.showHud(msg: response.debugDescription)
             }
         }
         SVProgressHUD.dismiss()

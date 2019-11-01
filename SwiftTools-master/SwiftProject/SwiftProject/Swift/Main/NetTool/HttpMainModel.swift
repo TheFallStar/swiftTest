@@ -13,16 +13,6 @@ struct HttpMainModel:Codable {
 //    let Message: String? = ""
     var ret:Int? = 1
     var data:[String:String]
-//    private enum CodingKeys: String, CodingKey {
-//        case result = "height"
-//        case name
-//        case age
-//        case pet
-//        case picture
-//    }
 }
-//struct Data {
-//
-//}
 
 

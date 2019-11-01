@@ -41,7 +41,6 @@
 		B0EBD380224DA3B200F3B8B9 /* NSLayoutConstraint+HJLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EBD354224DA3B200F3B8B9 /* NSLayoutConstraint+HJLayout.swift */; };
 		B0EBD381224DA3B200F3B8B9 /* UITapGestureRecognizer+JHExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EBD355224DA3B200F3B8B9 /* UITapGestureRecognizer+JHExtension.swift */; };
 		B0EBD382224DA3B200F3B8B9 /* IBDesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EBD356224DA3B200F3B8B9 /* IBDesignableView.swift */; };
-		B0EBD383224DA3B200F3B8B9 /* JHPOPAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EBD357224DA3B200F3B8B9 /* JHPOPAlertView.swift */; };
 		B0EBD384224DA3B200F3B8B9 /* JHRegularHelp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EBD359224DA3B200F3B8B9 /* JHRegularHelp.swift */; };
 		B0EBD385224DA3B200F3B8B9 /* ValueChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EBD35A224DA3B200F3B8B9 /* ValueChange.swift */; };
 		B0EBD386224DA3B200F3B8B9 /* Array+JHExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EBD35B224DA3B200F3B8B9 /* Array+JHExtension.swift */; };
@@ -116,7 +115,6 @@
 		B0EBD354224DA3B200F3B8B9 /* NSLayoutConstraint+HJLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSLayoutConstraint+HJLayout.swift"; sourceTree = "<group>"; };
 		B0EBD355224DA3B200F3B8B9 /* UITapGestureRecognizer+JHExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITapGestureRecognizer+JHExtension.swift"; sourceTree = "<group>"; };
 		B0EBD356224DA3B200F3B8B9 /* IBDesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBDesignableView.swift; sourceTree = "<group>"; };
-		B0EBD357224DA3B200F3B8B9 /* JHPOPAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHPOPAlertView.swift; sourceTree = "<group>"; };
 		B0EBD359224DA3B200F3B8B9 /* JHRegularHelp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHRegularHelp.swift; sourceTree = "<group>"; };
 		B0EBD35A224DA3B200F3B8B9 /* ValueChange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValueChange.swift; sourceTree = "<group>"; };
 		B0EBD35B224DA3B200F3B8B9 /* Array+JHExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+JHExtension.swift"; sourceTree = "<group>"; };
@@ -340,7 +338,6 @@
 				B0EBD354224DA3B200F3B8B9 /* NSLayoutConstraint+HJLayout.swift */,
 				B0EBD355224DA3B200F3B8B9 /* UITapGestureRecognizer+JHExtension.swift */,
 				B0EBD356224DA3B200F3B8B9 /* IBDesignableView.swift */,
-				B0EBD357224DA3B200F3B8B9 /* JHPOPAlertView.swift */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -583,7 +580,6 @@
 				B0EBD381224DA3B200F3B8B9 /* UITapGestureRecognizer+JHExtension.swift in Sources */,
 				B0EBD38C224DA3B200F3B8B9 /* ScrollView+JHEmptyDataSet.swift in Sources */,
 				B0EBD371224DA3B200F3B8B9 /* GlobalDefines.swift in Sources */,
-				B0EBD383224DA3B200F3B8B9 /* JHPOPAlertView.swift in Sources */,
 				B0EBD37C224DA3B200F3B8B9 /* UIViewController+HJExtension.swift in Sources */,
 				B0EBD38E224DA3B200F3B8B9 /* SwiftPopMenu.swift in Sources */,
 				B0EBD329224D9ED000F3B8B9 /* ThirdScrollController.swift in Sources */,
@@ -771,7 +767,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = yunna.SwiftProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/steven/Desktop/项目框架/swiftTest/SwiftTools-master/SwiftProject/SwiftProject/SwiftToolTest-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/chao/Desktop/项目/swift/swiftTest/SwiftTools-master/SwiftProject/SwiftProject/SwiftToolTest-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -794,7 +790,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = yunna.SwiftProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/steven/Desktop/项目框架/swiftTest/SwiftTools-master/SwiftProject/SwiftProject/SwiftToolTest-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/chao/Desktop/项目/swift/swiftTest/SwiftTools-master/SwiftProject/SwiftProject/SwiftToolTest-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

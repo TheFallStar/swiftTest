@@ -24,7 +24,7 @@ class HJTestViewController: UIViewController {
             let aa = try JSONDecoder().decode(TestModel.self, from: jsonData)
 
             let bb:channelResults = aa.list[0]!
-            print(bb.bigCover)
+            print(bb.bigCover!)
         } catch {
             print("error: \(error)")
         }
