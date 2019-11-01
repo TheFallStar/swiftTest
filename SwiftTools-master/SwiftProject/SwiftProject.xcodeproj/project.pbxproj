@@ -15,9 +15,6 @@
 		B0EBD325224D9ED000F3B8B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0EBD2DF224D9ECF00F3B8B9 /* LaunchScreen.storyboard */; };
 		B0EBD326224D9ED000F3B8B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0EBD2E1224D9ECF00F3B8B9 /* Main.storyboard */; };
 		B0EBD328224D9ED000F3B8B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EBD2E4224D9ECF00F3B8B9 /* AppDelegate.swift */; };
-		B0EBD329224D9ED000F3B8B9 /* ThirdScrollController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EBD2E7224D9ECF00F3B8B9 /* ThirdScrollController.swift */; };
-		B0EBD32A224D9ED000F3B8B9 /* MBProgressHUDController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EBD2E8224D9ECF00F3B8B9 /* MBProgressHUDController.swift */; };
-		B0EBD32B224D9ED000F3B8B9 /* MBProgressHUDController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0EBD2E9224D9ECF00F3B8B9 /* MBProgressHUDController.xib */; };
 		B0EBD32C224D9ED000F3B8B9 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B0EBD2EA224D9ECF00F3B8B9 /* Info.plist */; };
 		B0EBD36B224DA3B200F3B8B9 /* FlexTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EBD339224DA3B200F3B8B9 /* FlexTable.swift */; };
 		B0EBD36C224DA3B200F3B8B9 /* FlexTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EBD33B224DA3B200F3B8B9 /* FlexTableCell.swift */; };
@@ -51,8 +48,6 @@
 		B0EBD38B224DA3B200F3B8B9 /* TimerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EBD361224DA3B200F3B8B9 /* TimerButton.swift */; };
 		B0EBD38C224DA3B200F3B8B9 /* ScrollView+JHEmptyDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EBD362224DA3B200F3B8B9 /* ScrollView+JHEmptyDataSet.swift */; };
 		B0EBD38D224DA3B200F3B8B9 /* EntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EBD363224DA3B200F3B8B9 /* EntryView.swift */; };
-		B0EBD38E224DA3B200F3B8B9 /* SwiftPopMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EBD364224DA3B200F3B8B9 /* SwiftPopMenu.swift */; };
-		B0EBD38F224DA3B200F3B8B9 /* LocationTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EBD365224DA3B200F3B8B9 /* LocationTool.swift */; };
 		B0EBD390224DA3B200F3B8B9 /* ScrollView+JHRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EBD366224DA3B200F3B8B9 /* ScrollView+JHRefresh.swift */; };
 		B0F8772F224DB28E003441CC /* HJBaseRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F8772E224DB28E003441CC /* HJBaseRequests.swift */; };
 /* End PBXBuildFile section */
@@ -89,9 +84,6 @@
 		B0EBD2E2224D9ECF00F3B8B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B0EBD2E4224D9ECF00F3B8B9 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0EBD2E5224D9ECF00F3B8B9 /* SwiftToolTest-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SwiftToolTest-Bridging-Header.h"; sourceTree = "<group>"; };
-		B0EBD2E7224D9ECF00F3B8B9 /* ThirdScrollController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdScrollController.swift; sourceTree = "<group>"; };
-		B0EBD2E8224D9ECF00F3B8B9 /* MBProgressHUDController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBProgressHUDController.swift; sourceTree = "<group>"; };
-		B0EBD2E9224D9ECF00F3B8B9 /* MBProgressHUDController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MBProgressHUDController.xib; sourceTree = "<group>"; };
 		B0EBD2EA224D9ECF00F3B8B9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0EBD339224DA3B200F3B8B9 /* FlexTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexTable.swift; sourceTree = "<group>"; };
 		B0EBD33B224DA3B200F3B8B9 /* FlexTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexTableCell.swift; sourceTree = "<group>"; };
@@ -125,8 +117,6 @@
 		B0EBD361224DA3B200F3B8B9 /* TimerButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerButton.swift; sourceTree = "<group>"; };
 		B0EBD362224DA3B200F3B8B9 /* ScrollView+JHEmptyDataSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ScrollView+JHEmptyDataSet.swift"; sourceTree = "<group>"; };
 		B0EBD363224DA3B200F3B8B9 /* EntryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryView.swift; sourceTree = "<group>"; };
-		B0EBD364224DA3B200F3B8B9 /* SwiftPopMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftPopMenu.swift; sourceTree = "<group>"; };
-		B0EBD365224DA3B200F3B8B9 /* LocationTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationTool.swift; sourceTree = "<group>"; };
 		B0EBD366224DA3B200F3B8B9 /* ScrollView+JHRefresh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ScrollView+JHRefresh.swift"; sourceTree = "<group>"; };
 		B0F8772E224DB28E003441CC /* HJBaseRequests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HJBaseRequests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -232,20 +222,9 @@
 				B0EBD2E1224D9ECF00F3B8B9 /* Main.storyboard */,
 				B0EBD2E4224D9ECF00F3B8B9 /* AppDelegate.swift */,
 				B0EBD2E5224D9ECF00F3B8B9 /* SwiftToolTest-Bridging-Header.h */,
-				B0EBD2E6224D9ECF00F3B8B9 /* ThirdParty */,
 				B0EBD2EA224D9ECF00F3B8B9 /* Info.plist */,
 			);
 			path = SwiftProject;
-			sourceTree = "<group>";
-		};
-		B0EBD2E6224D9ECF00F3B8B9 /* ThirdParty */ = {
-			isa = PBXGroup;
-			children = (
-				B0EBD2E7224D9ECF00F3B8B9 /* ThirdScrollController.swift */,
-				B0EBD2E8224D9ECF00F3B8B9 /* MBProgressHUDController.swift */,
-				B0EBD2E9224D9ECF00F3B8B9 /* MBProgressHUDController.xib */,
-			);
-			path = ThirdParty;
 			sourceTree = "<group>";
 		};
 		B0EBD32E224DA3B200F3B8B9 /* Swift */ = {
@@ -362,8 +341,6 @@
 				B0EBD361224DA3B200F3B8B9 /* TimerButton.swift */,
 				B0EBD362224DA3B200F3B8B9 /* ScrollView+JHEmptyDataSet.swift */,
 				B0EBD363224DA3B200F3B8B9 /* EntryView.swift */,
-				B0EBD364224DA3B200F3B8B9 /* SwiftPopMenu.swift */,
-				B0EBD365224DA3B200F3B8B9 /* LocationTool.swift */,
 				B0EBD366224DA3B200F3B8B9 /* ScrollView+JHRefresh.swift */,
 			);
 			path = Tool;
@@ -482,7 +459,6 @@
 				B0EBD31C224D9ED000F3B8B9 /* Assets.xcassets in Resources */,
 				B0EBD326224D9ED000F3B8B9 /* Main.storyboard in Resources */,
 				B0EBD325224D9ED000F3B8B9 /* LaunchScreen.storyboard in Resources */,
-				B0EBD32B224D9ED000F3B8B9 /* MBProgressHUDController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -564,14 +540,12 @@
 				B0F8772F224DB28E003441CC /* HJBaseRequests.swift in Sources */,
 				B0EBD37E224DA3B200F3B8B9 /* UITextField+JHExtension.swift in Sources */,
 				B04D8ECF2251D6E6003D211B /* TestModel.swift in Sources */,
-				B0EBD32A224D9ED000F3B8B9 /* MBProgressHUDController.swift in Sources */,
 				B0EBD378224DA3B200F3B8B9 /* UIView+JHExtension.swift in Sources */,
 				B0EBD37B224DA3B200F3B8B9 /* JHLabel.swift in Sources */,
 				B0EBD38B224DA3B200F3B8B9 /* TimerButton.swift in Sources */,
 				B0EBD376224DA3B200F3B8B9 /* HJShowAlert.swift in Sources */,
 				B0EBD37F224DA3B200F3B8B9 /* UIButton+JHExtension.swift in Sources */,
 				B0EBD36B224DA3B200F3B8B9 /* FlexTable.swift in Sources */,
-				B0EBD38F224DA3B200F3B8B9 /* LocationTool.swift in Sources */,
 				B0EBD389224DA3B200F3B8B9 /* Dictionary+JHExtension.swift in Sources */,
 				B0EBD382224DA3B200F3B8B9 /* IBDesignableView.swift in Sources */,
 				B0EBD36F224DA3B200F3B8B9 /* HJTestViewController.swift in Sources */,
@@ -581,8 +555,6 @@
 				B0EBD38C224DA3B200F3B8B9 /* ScrollView+JHEmptyDataSet.swift in Sources */,
 				B0EBD371224DA3B200F3B8B9 /* GlobalDefines.swift in Sources */,
 				B0EBD37C224DA3B200F3B8B9 /* UIViewController+HJExtension.swift in Sources */,
-				B0EBD38E224DA3B200F3B8B9 /* SwiftPopMenu.swift in Sources */,
-				B0EBD329224D9ED000F3B8B9 /* ThirdScrollController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

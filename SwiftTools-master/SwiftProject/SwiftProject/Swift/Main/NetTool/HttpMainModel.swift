@@ -9,10 +9,11 @@
 //import AnyCodable
 
 struct HttpMainModel:Codable {
-//    var result: String! = ""
-//    let Message: String? = ""
+//    var data: String! = ""
     var ret:Int? = 1
-    var data:[String:String]
+    let Message: String? = ""
+    let data: String? = ""
+//    var data:[String:String]
 }
 
 
